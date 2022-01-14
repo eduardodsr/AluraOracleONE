@@ -1,0 +1,19 @@
+##### MAC OS #####
+
+# General
+.DS_Store
+*/.DS_Store
+**/.DS_Store
+._.DS_Store
+
+# Directories Ignores 
+logica1/
+.logica1/
+*./logica1/
+**./logica1
+
+
+# Packages #
+*.dmg
+*.rar
+*.zip
