@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<!-- exemplo de uma função pula linha e mostra as idades -->
+
+<script>
+
+function pulaLinha() {
+       // pulando duas linhas e colocando uma linha horizontal
+    document.write("<br><hr><br>");
+}
+
+function mostra(frase) {
+    document.write("<big>" + frase + "</big>");
+    pulaLinha();
+}
+
+var ano = 2022;
+
+mostra("Fulano 1 tem " + (ano - 1981) + " anos.");
+mostra("Fulano 2 tem " + (ano - 1991) + " anos.");
+mostra("Fulano 3 tem " + (ano - 2001) + " anos.");
+
+</script>

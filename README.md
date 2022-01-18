@@ -17,21 +17,21 @@ https://cursos.alura.com.br/course/logica-programacao-javascript-html
 
 ## Aulas
 
-1. Comece a programar hoje ✅
+1. Aula 1 ✅
 
-2. Comunique-se com o usuário ✅
+2. Aula 2 ✅
 
-3. Torne seu programa dinâmico com variáveis ✅
+3. Aula 3 ✅
 
-4. Crie suas próprias funcionalidades ❌
+4. Aula 4 ✅
 
-5. Pratique resolvendo problemas do seu dia a dia ❌
+5. Aula 5 ✅
 
-6. Execute códigos diferentes dependendo da condição [❌
+6. Aula 6 ✅
  
-7. Repita tarefas ❌
+7. Aula 7 ✅
 
-8. Interaja de maneira diferente com o usuário ❌
+8. Aula 8 ❌
 
-9. Trabalhe com muitos dados ❌
+9. Aula 9 ❌
  

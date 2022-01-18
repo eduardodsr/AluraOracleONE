@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    // parseInt() para que o valor digitado, que por padrão é lido como texto, seja interpretado como um número.
+
+    var vitorias = parseInt(prompt("Entre com o número de vitórias do seu time:"));
+ 
+    var empates = parseInt(prompt("Entre como o número de empates do seu time: "));
+
+    var pontos = (vitorias * 3) + empates;
+
+    mostra("Os pontos do seu time é " + pontos);
+
+</script>

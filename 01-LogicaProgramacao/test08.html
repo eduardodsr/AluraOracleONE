@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<!-- 
+    exemplo de uma função puloLinha e uma função que mostra uma frase que foi passada como parametro.
+    No lugar de document.write() queremos utilizar a função mostra()
+    objetivo é que mostra() faça document.write(), que por sua vez recebe o que queremos exibir.
+-->
+
+<script>
+
+    function puloLinha() {
+        document.write('<br>');
+        document.write('<br>');
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        puloLinha(); 
+    }
+
+    mostra('Olá pessoal!');
+    mostra(); // retorna Undefined
+
+    var ano = 2021;
+        
+    mostra("Flávio tem " + (ano - 1977) + " anos."); 
+    // document.write("Flávio tem " + (ano - 1977) + " anos.");
+
+    mostra("Joaquim tem " + (ano - 1996) + " anos.");
+    // document.write("Joaquim tem " + (ano - 1996) + " anos.");
+
+    ano = 2022;
+    mostra("Barney tem " + (ano - 1976) + " anos.");
+    // document.write("Barney tem " + (ano - 1976) + " anos.");
+
+</script>
