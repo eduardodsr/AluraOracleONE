@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+
+<!-- Aceitando apenas números -->
+
+<script>
+
+    var idade = parseInt(prompt("Digite sua idade"));
+    
+    /* a função isNaN() recebe um parâmetro e retorna true caso o parâmetro passado seja NaN (not a number) */
+    
+    while( isNaN(idade) ) {
+        idade = parseInt(prompt("Digite sua idade"));    
+    }
+    
+    alert(idade);
+
+
+</script>

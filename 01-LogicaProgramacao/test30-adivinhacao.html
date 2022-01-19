@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+<!-- jogo de adivinhação com 3 chances -->
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numeroPensado = Math.round(Math.random() * 10);
+    
+    console.log(numeroPensado);
+
+    var tentativas = 1;
+
+    while (tentativas <= 3) {
+
+        var chute = parseInt(prompt("Digite seu chute: "));
+
+        if (chute === numeroPensado) {
+            mostra("Você acertou! O número pensado era " + numeroPensado + '.');
+
+            break; // break, o JavaScript sai do loop (laço While) e parte para a próxima instrução, que no caso é mostra("FIM")
+
+        }
+        else {
+            mostra("Você errou!");
+        }
+
+        tentativas++;
+    }
+
+    mostra('FIM!');
+    
+</script>
