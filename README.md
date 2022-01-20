@@ -15,23 +15,23 @@ https://github.com/eduardodsr/AluraOracleONE/tree/main/01-LogicaProgramacao
 `link`: 
 https://cursos.alura.com.br/course/logica-programacao-javascript-html
 
-## Aulas
+## Tópicos
 
-1. Aula 1 ✅
+1. Parte 1 ✅
 
-2. Aula 2 ✅
+2. Parte 2 ✅
 
-3. Aula 3 ✅
+3. Parte 3 ✅
 
-4. Aula 4 ✅
+4. Parte 4 ✅
 
-5. Aula 5 ✅
+5. Parte 5 ✅
 
-6. Aula 6 ✅
+6. Parte 6 ✅
  
-7. Aula 7 ✅
+7. Parte 7 ✅
 
-8. Aula 8 ❌
+8. Parte 8 ✅
 
-9. Aula 9 ❌
+9. Parte 9 ❌
  
