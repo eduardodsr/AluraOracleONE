@@ -46,4 +46,6 @@ https://www.alura.com.br/oracle-next-education
 
   `link:`   
   https://cursos.alura.com.br/user/edsr-dev
+
+  https://cursos.alura.com.br/user/edsr-dev/fullCertificate/f229f311d209eba4fe8e0eae41352794
  
