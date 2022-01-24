@@ -5,15 +5,15 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/eduardodsr/AluraOracleONE)
 ![GitHub language count](https://img.shields.io/github/languages/count/eduardodsr/AluraOracleONE)
 
-## Lógica de programação I
+## 01. Lógica de programação I
 
 Os primeiros programas com Javascript e HTML.
 
-`código fonte`: 
-https://github.com/eduardodsr/AluraOracleONE/tree/main/01-LogicaProgramacao
-
 `link`: 
 https://cursos.alura.com.br/course/logica-programacao-javascript-html
+
+`código fonte`: 
+https://github.com/eduardodsr/AluraOracleONE/tree/main/01-LogicaProgramacao
 
 ## Tópicos
 
@@ -33,5 +33,17 @@ https://cursos.alura.com.br/course/logica-programacao-javascript-html
 
 8. Parte 8 ✅
 
-9. Parte 9 ❌
+9. Parte 9 ✅
+
+## Informações sobre o curso: 
+
+`links:`  
+https://www.alura.com.br/
+
+https://www.alura.com.br/oracle-next-education
+
+## Alura - Perfil de Eduardo Rodrigues (Atividades & Certificados): :bookmark_tabs:
+
+  `link:`   
+  https://cursos.alura.com.br/user/edsr-dev
  
