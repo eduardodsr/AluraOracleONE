@@ -1,0 +1,24 @@
+<!-- 
+    Desenhar a bandeira da Italia.
+    1 - Criar um novo retângulo, que terá 200 de largura e 400 de altura, na cor verde. 
+    2 - Criar um outro retângulo, no outro lado da tela, na cor vermelho. 
+-->
+
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    // pincel.fillStyle = 'lightgray'; // retangulo inteiro cinza
+    // pincel.fillRect(0, 0, 600, 400); 
+
+    pincel.fillStyle = 'green'; // 1 - retangulo verde, lado esquerdo
+    pincel.fillRect(0, 0, 200, 400)
+
+    pincel.fillStyle = 'red'; // 2 - retangulo vermelho, lado direito
+    pincel.fillRect(400, 0, 400, 400)
+
+  
+</script>

@@ -1,0 +1,36 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    // cabeça
+    pincel.fillStyle = 'darkgreen';
+    pincel.fillRect(200, 50, 350, 300);
+
+    // olhos
+    pincel.fillStyle = 'black';
+    pincel.fillRect(250, 110, 90, 90);
+    pincel.fillRect(410, 110, 90, 90);
+
+    // nariz
+    pincel.fillRect(340, 200, 70, 100);
+
+    // boca ou barba
+    pincel.fillRect(300, 240, 40, 110);
+    pincel.fillRect(410, 240, 40, 110);   
+
+</script>
+
+<!-- 
+
+    Creeper -> Seguem os passos para te guiar:
+
+    1. Criar um novo arquivo, por exemplo creeper.html.
+    2. Definir a tag canvas.
+    3. Criar um script com tela e pincel.
+    4. Desenhar os retângulos através da função fillRect() do pincel.
+    5. Não esquecer de pintar os retângulos, aqui usamos as cores darkgreen e black.
+
+ -->

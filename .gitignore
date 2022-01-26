@@ -7,9 +7,7 @@
 ._.DS_Store
 
 # Directories Ignores 
-test/
-.test/
-*./test/
+logica2
 
 # Packages #
 *.dmg

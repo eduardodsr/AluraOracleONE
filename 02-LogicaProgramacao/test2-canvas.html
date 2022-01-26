@@ -1,0 +1,41 @@
+<!-- Desenhando com um pincel -->
+
+<!-- 
+
+    O canvas será a nossa tela.
+    
+    O canvas <canvas width="600" height="400"> é uma área da tela onde podemos desenhar, escrever com um pincel.
+    
+    Precisamos informar, em nosso programa, quanto o <canvas> ocupa de espaço. 
+        
+    Para isso, utilizaremos dois atributos, o width ("largura"), diremos que é 600, e o height ("altura"), que será de 400.
+    
+-->
+
+<canvas width="600" height="400"></canvas>
+
+<!-- width "largura" e height "altura" -->
+
+<script>
+
+    var tela = document.querySelector('canvas');
+
+    var pincel = tela.getContext('2d');
+
+    /*  
+        No mundo da programação podemos ter gráficos em 2D, 3D, 4D, enfim, 
+        portanto, precisamos informar à tela qual o tipo de pincel.
+        Para isso, utilizaremos o getContext() e passaremos o 2d como parâmetro .
+    */
+
+    pincel.fillStyle = 'lightgrey'; // cor da tinta do pincel
+    
+    pincel.fillRect(0, 0, 600, 400); // preencher o retângulo
+    
+    // pincel.fillRect( posicao inicial x, posicao inicial y, posicao final do x, posicao final do y );
+
+    // Preencher em Inglês é "fill", enquanto "Rect" é a abreviação de retângulo
+
+</script>
+
+

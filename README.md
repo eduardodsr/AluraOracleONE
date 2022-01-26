@@ -1,4 +1,4 @@
-# Alura Oracle ONE - 2022
+# Alura Oracle ONE | Oracle Next Education - 2022
 
 [![](https://img.shields.io/badge/made_by-eduardodsr-green)](https://github.com/eduardodsr/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/eduardodsr/AluraOracleONE)
@@ -10,12 +10,13 @@
 Os primeiros programas com Javascript e HTML.
 
 `link`: 
-https://cursos.alura.com.br/course/logica-programacao-javascript-html
+[Alura - 01. Lógica de programação I](https://cursos.alura.com.br/course/logica-programacao-javascript-html)
 
 `código fonte`: 
-https://github.com/eduardodsr/AluraOracleONE/tree/main/01-LogicaProgramacao
+[GitHub - 01. Lógica de programação I](https://github.com/eduardodsr/AluraOracleONE/tree/main/01-LogicaProgramacao)
 
-## Tópicos
+
+### Tópicos
 
 1. Parte 1 ✅
 
@@ -35,17 +36,48 @@ https://github.com/eduardodsr/AluraOracleONE/tree/main/01-LogicaProgramacao
 
 9. Parte 9 ✅
 
+<br>
+
+## 02. Lógica de programação II
+
+Pratique com desenhos, animações e um jogo.
+
+`link`: 
+[Alura - 02. Lógica de programação II](https://cursos.alura.com.br/course/logica-programacao-pratica-com-desenho-animacoes-em-jogo)
+
+
+`código fonte`: 
+[GitHub - 02. Lógica de programação II](https://github.com/eduardodsr/AluraOracleONE/tree/main/02-LogicaProgramacao)
+
+
+### Tópicos
+
+1. Desenhando gráficos com Canvas ✅
+
+2. Extraindo funções ✅
+
+3. Interagindo com o usuário ❌
+
+4. Movendo elementos: animações simples  ❌
+
+5. Nosso primeiro jogo  ❌
+
+<br>
+
 ## Informações sobre o curso: 
 
 `links:`  
-https://www.alura.com.br/
+https://www.alura.com.br
 
 https://www.alura.com.br/oracle-next-education
 
-## Alura - Perfil de Eduardo Rodrigues (Atividades & Certificados): :bookmark_tabs:
+https://www.oracle.com/br/education/oracle-next-education
+
+<br>
+
+## Perfil, Atividades & Certificados: 
 
   `link:`   
-  https://cursos.alura.com.br/user/edsr-dev
+[Alura - Perfil de Eduardo Rodrigues (HomePage)](https://cursos.alura.com.br/user/edsr-dev)
 
-  https://cursos.alura.com.br/user/edsr-dev/fullCertificate/f229f311d209eba4fe8e0eae41352794
- 
+ [Alura - Certificado Digital - Conclusão dos Cursos](https://cursos.alura.com.br/user/edsr-dev/fullCertificate/f229f311d209eba4fe8e0eae41352794)

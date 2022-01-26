@@ -1,0 +1,30 @@
+<!-- 
+    Vamos criar um triângulo amarelo no meio da tela.
+-->
+
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(0, 0, 600, 400); 
+
+    pincel.fillStyle = 'green'; 
+    pincel.fillRect(0, 0, 200, 400);
+
+    pincel.fillStyle = 'red'; 
+    pincel.fillRect(400, 0, 400, 400);
+
+    // criar um triângulo amarelo no meio da tela
+    pincel.fillStyle = 'yellow';
+    pincel.beginPath(); // Começar, em inglês, é begin, e caminho é path. Portanto, utilizaremos um begin path para dizermos qual será a direção seguida por nosso pincel.
+    // pincel.moveTo(300, 0); // triangulo amarelo, ponto central sno topo
+    pincel.moveTo(300, 200); // triangulo amarelo, ponto central no centro
+    pincel.lineTo(200, 400);
+    pincel.lineTo(400, 400);
+    pincel.fill();
+  
+</script>

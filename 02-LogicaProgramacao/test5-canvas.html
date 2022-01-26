@@ -1,0 +1,55 @@
+<!-- 
+    Consultar no Google sobre "canvas 2d api" para maiores informações.
+
+    MDN Web Docs - CanvasRenderingContext2D
+    ---------------------------------------
+    https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
+
+    API (são as bibliotecas da linguagem)
+
+    - Vamos adicionar um círculo no meio da tela, na cor azul
+-->
+
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(0, 0, 600, 400); 
+
+    pincel.fillStyle = 'green'; 
+    pincel.fillRect(0, 0, 200, 400);
+
+    pincel.fillStyle = 'red'; 
+    pincel.fillRect(400, 0, 400, 400);
+
+    // criar um triângulo amarelo no meio da tela
+    pincel.fillStyle = 'yellow';
+    pincel.beginPath(); // Começar, em inglês, é begin, e caminho é path. Portanto, utilizaremos um begin path para dizermos qual será a direção seguida por nosso pincel.
+    pincel.moveTo(300, 200); // triangulo amarelo, ponto central no centro
+    pincel.lineTo(200, 400);
+    pincel.lineTo(400, 400);
+    pincel.fill();
+
+    // circulo
+    pincel.fillStyle = 'blue';
+    pincel.beginPath(); // beginPath() - Inicio do Caminho, dizermos qual será a direção seguida por nosso pincel.
+    pincel.arc(300, 200, 50, 0, 2 * 3.14); //  desenhar um círculo, utilizamos a função arc();
+    pincel.fill();
+  
+</script>
+
+
+<!-- 
+
+    A função arc(), para traçarmos nossa esfera, ou seja, arco (circulo). 
+    Nela, incluiremos as seguintes informações:
+
+    ->Posicionamento da esfera, que definiremos como 300 (X) e 200 (Y);
+    -> Tamanho, ou seja, o raio - que definiremos como 50;
+    -> O ângulo inicial, e o ângulo final, em radianos (multiplicado por PI - 3,14);
+
+ -->
