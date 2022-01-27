@@ -1,0 +1,38 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(0, 0, 600, 400);
+
+    function desenhaCirculo(x, y, raio) {
+
+        pincel.fillStyle = 'blue';  // Para molhar o pincel na tinha, na cor 'Azul'.
+        pincel.beginPath();         // Para começar a desenhar.
+        pincel.arc(x, y, raio, 0, 2 * Math.PI); 
+        // arc() - Para desenhar o meu circulo. // Math.PI = 3,14 é o PI da Matemática utilizado no calculo do raio.
+        pincel.fill();              // Para preenchermos o círculo.
+
+    }
+
+    function limpaTela() {
+
+        pincel.clearRect(0,0,600,400); 
+    }
+
+    var x = 20;
+
+    function atualizaTela() {
+
+        limpaTela();
+        desenhaCirculo(x, 20, 10); // desenhaCirculo (x, y, raio) 
+        x++;
+    }
+    
+    setInterval(atualizaTela, 10); // Para cada 10 milisegundos chama a função de atualizaTela() 
+ 
+</script>
+
+  
