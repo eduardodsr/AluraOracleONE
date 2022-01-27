@@ -1,0 +1,25 @@
+<canvas width="600"  height="400"></canvas>
+
+<!-- 
+    // Programa3 que exibe alerta na tela do canvas. //
+
+    A função exibeAlerta() é chamada quando o usuário clicar na área da tela selecionada no canvas. 
+    Utilizaremos a propriedade onclick, assim, conectaremos o exibeAlerta() ao onClick.
+-->
+
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'grey';
+    pincel.fillRect(0, 0, 600, 400);
+
+    function exibeAlerta() {
+        alert('Cliquei!');
+    }
+    
+    tela.onclick = exibeAlerta;     // Chamada ao clicar na tela do canvas
+
+    // tela.onclick = exibeAlerta(); // Chamada no carregamento da página pelo navegador (ERRO - Não é o queremos!)
+
+</script>

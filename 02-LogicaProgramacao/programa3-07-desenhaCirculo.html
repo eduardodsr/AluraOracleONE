@@ -1,0 +1,59 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+     var tela = document.querySelector('canvas');
+     var pincel = tela.getContext('2d');
+ 
+     pincel.fillStyle = 'grey';
+     pincel.fillRect(0, 0, 600, 400);
+ 
+     var raio = 10;
+ 
+     function desenhaCirculo(evento) {
+ 
+         var x = evento.pageX - tela.offsetLeft;
+         var y = evento.pageY - tela.offsetTop;
+ 
+         console.log(x + ',' + y);
+ 
+            if (evento.shiftKey && evento.altKey) {
+    
+                alert('Só aperte uma tecla por vez, por favor!');
+    
+            } else if (evento.shiftKey && raio + 10 <= 40) {
+                raio = raio + 10;
+    
+            } else if (evento.altKey && raio - 5 >= 10) {
+                raio = raio - 5;
+    
+            }
+    
+         pincel.fillStyle = 'blue';
+         pincel.beginPath();
+         pincel.arc(x, y, raio, 0, 2 * 3.14);
+         pincel.fill();
+ 
+     }
+ 
+     tela.onclick = desenhaCirculo;
+ 
+</script>
+
+<!-- 
+   Atividade 07 - O bolão que deseja emagrecer!
+
+   Verificar se SHIFT e ALT estão sendo pressionadas ao mesmo tempo.
+   Portanto, ao clicar SHIFT e ALT estão sendo pressionadas ao mesmo tempo, vai informar a mensagem:
+   'Só aperte uma tecla por vez, por favor!'
+
+    Se o usuário clicar na tela com a tecla ALT pressionada, o raio deve diminuir 5. 
+    Se o usuário clicar na tela com a tecla SHIFT pressionada, o raio não pode ultrapassar 40.
+    
+    evento.altKey   // Para saber se a tecla ALT está pressionada
+    evento.shiftKey // Para saber se a tecla SHIFT está pressionada
+
+    IMPORTANTE : 
+    SE VOCÊ USA LINUX, USE evento.ctrlKey no lugar de evento.altKey. 
+    Isso porque o ALT no linux ativa o menu.
+ -->
