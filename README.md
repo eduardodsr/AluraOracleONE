@@ -56,9 +56,9 @@ Pratique com desenhos, animações e um jogo.
 
 2. Extraindo funções ✅
 
-3. Interagindo com o usuário ❌
+3. Interagindo com o usuário ✅
 
-4. Movendo elementos: animações simples  ❌
+4. Movendo elementos: animações simples  ✅
 
 5. Nosso primeiro jogo  ❌
 
