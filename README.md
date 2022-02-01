@@ -60,7 +60,7 @@ Pratique com desenhos, animações e um jogo.
 
 4. Movendo elementos: animações simples  ✅
 
-5. Nosso primeiro jogo  ❌
+5. Nosso primeiro jogo  ✅
 
 <br>
 
