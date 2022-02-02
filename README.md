@@ -7,7 +7,7 @@
 
 ## 01. Lógica de programação I
 
-Os primeiros programas com Javascript e HTML.
+- Os primeiros programas com Javascript e HTML.
 
 `link`: 
 [Alura - 01. Lógica de programação I](https://cursos.alura.com.br/course/logica-programacao-javascript-html)
@@ -40,7 +40,7 @@ Os primeiros programas com Javascript e HTML.
 
 ## 02. Lógica de programação II
 
-Pratique com desenhos, animações e um jogo.
+- Pratique com desenhos, animações e um jogo.
 
 `link`: 
 [Alura - 02. Lógica de programação II](https://cursos.alura.com.br/course/logica-programacao-pratica-com-desenho-animacoes-em-jogo)
@@ -61,6 +61,45 @@ Pratique com desenhos, animações e um jogo.
 4. Movendo elementos: animações simples  ✅
 
 5. Nosso primeiro jogo  ✅
+
+<br>
+
+## 03. JavaScript: Programando na linguagem da web
+
+- Entenda mais como funciona esta popular linguagem do mercado
+- Aprenda a manipular os elementos de sua página
+- Trabalhe bem com eventos do navegador
+- Entenda como utilizar e validar formulários
+- Conheça boas práticas de organização de código Javascript
+- Busque dados em outro servidor com AJAX
+
+`link`: 
+[Alura - 03. JavaScript](https://cursos.alura.com.br/course/javascript-programando-na-linguagem-web)
+
+
+`código fonte`: 
+[GitHub - 03. JavaScript](https://github.com/eduardodsr/AluraOracleONE/tree/main/03-JavaScript)
+
+
+### Tópicos / Aulas
+
+1. Introdução  ✅
+
+2. Variáveis e Operadores ❌
+
+3. Arrays, Loop e Estilos ❌
+
+4. Eventos, Formulários e Criando Elementos ❌
+
+5. Boas Práticas com Javascript ❌
+
+6. Validação de Formulários ❌
+
+7. Remoção, Delegação e Animação ❌
+
+8. Filtrando uma tabela ❌
+
+9. Ajax  ❌
 
 <br>
 
